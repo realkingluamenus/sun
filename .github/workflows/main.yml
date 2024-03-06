@@ -1,9 +1,17 @@
- name: App token
-  # You may pin to the exact commit or the version.
-  # uses: sjdaws/app-token@b47fc18441f7c0b14a760edc8b316ceb4472205b
-  uses: sjdaws/app-token@v1
-  with:
-    # GitHub application identifier.
-    appId: 
-    # Private key used to authenticate as application.
-    privateKey: 1122
+import os
+from colorama import Fore
+
+os.system(cls("cls & title Kawia & mode 37,11"))
+
+print(f"""{Fore.RED})
+██████╗ ███████╗ █████╗ ██╗     ██╗  ██╗██╗███╗   ██╗ ██████╗ 
+██╔══██╗██╔════╝██╔══██╗██║     ██║ ██╔╝██║████╗  ██║██╔════╝ 
+██████╔╝█████╗  ███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗
+██╔══██╗██╔══╝  ██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║
+██║  ██║███████╗██║  ██║███████╗██║  ██╗██║██║ ╚████║╚██████╔╝
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚════
+""")
+x = input(f"{Fore.RED}kawia:")
+if x == "1":
+os.system('REG ADD "HKEY_CURRENT_CURRENT_USER3\Control Panel\Mouse" /v "DonbleClickHeight2" /t REG_SZ /d "1000" /f"')
+
